@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#demo{
+    background-color: aquamarine;
+    color: black;
+    float: left;
+    width: 30%;
+    margin: 1%;
+    border: 1px solid black;
+}
+#demo1{
+    background-color: bisque;
+    color: darkred;
+    float: left;
+    width: 30%;
+    margin: 1%;
+    border: 1px solid black;
+}
+#demo2{
+    background-color: black;
+    color: antiquewhite;  
+    float: left;
+    width: 30%;
+    margin: 1%;
+    border: 1px solid black;
+}
+h3{
+    text-align:center;
+    float:right;
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-top: 5px;
+    padding-left:55px;
+    /*padding-left: 30px;*/
+    clear-both:;
+    padding-right: 30px;
+    position: relative;
+    right: 0px;
+    bottom: 5px;
+    width: 150px;
+    background-color: tomato;
+}
+header{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+  .width4{
+    float: left;
+  }
+
+  .width4{
+    width: 33.33%;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .width6, .width12 {
+    float: left;
+}
+
+  .width6 {
+    width: 50%;
+  }
+
+  .width12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+
+.width12 {
+    float: left;
+}
+.width12{
+    width: 100%;
+}
+}
