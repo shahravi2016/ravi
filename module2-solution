@@ -3,3 +3,9 @@
 <head>
   <link rel="stylesheet" href="module2.css">
 </head>
+<body>
+  <p>
+      lorem
+  </p>
+</body>
+</html>
